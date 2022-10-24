@@ -1,0 +1,18 @@
+
+For Windows:
+-----------------
+
+1.Create windows EC2 machine
+2.Generate the password
+3.need to open remote desktop from your local machine and give the credentials and thus will connect to windows.
+4.create file in local machine and just copy paste in remote machine
+
+
+For Linux:
+-------------
+1.create linux ins
+2.generate ppk file using putty gen
+3.download and install WINSCP 
+4.give public address/domain name and ppk file as password under advanced sec and connect and 
+you can see both loccal and linux server in one screen where you can copy files from local to remote 
+5.To verify if files are copied or not connect to linux server and give ls

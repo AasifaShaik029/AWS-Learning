@@ -1,0 +1,29 @@
+CLOUD NOTES
+---------------
+For windows we need RDP port(use remote desktop from your computer and give credentials and proceed)
+For Linux we need SSH port
+
+1.Download putty and puttygen
+2.Generate ppk (Putty Private Key)file using puttygen(load pem file into puttygen)
+Thru SSH Client
+---------------------
+3.Select ec2 instance, go to ssh  client and select ex domain/public ip address and paste 
+ec2-user@ec2-65-2-161-154.ap-south-1.compute.amazonaws.com
+4. Also select ppk file to putty and connect to linux server.
+:)
+
+Another way:
+Thru Instance connect:
+-------------------------
+copy public ip and give as domain name in putty
+and select ppk file and connect
+:)
+you can directly select ppk file while creating instance and follow same connecting method in putty.(not recommended)
+cuz pem is usable in some cases(like vpc)
+1ppk for 1insatnce
+
+
+
+
+
+Basically public IP address is dynamic but we can change to static/elastic ip
