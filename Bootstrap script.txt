@@ -1,0 +1,14 @@
+Bootstrap script:
+-----------------
+Bootstrapping allows us to write and put a startup script while launching an ec2 
+instance so that it execute automatically as soon as the instance launch.
+Amazon windows webserver:
+--------------------------
+use internet information services.This is inbuilt available in windows VM
+server manager-->add roles and features-->next-->select webserver-->next-->it starts installation.
+system will create initpub folder-->you can see default webpages>u can create own webpages also.
+-->you can use own html file and paste 
+-->when u copy public ip addrss in local pc or in remote pc , u can see webpage that u gave in iis.
+------------------------------------------
+Creating users in linux server:
+-------------------------------
